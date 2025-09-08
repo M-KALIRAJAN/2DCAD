@@ -1,0 +1,51 @@
+@media (min-width: 1600px) and (max-width: 1920px) {
+    .ruler.horizontal {
+        top: 13% !important;
+        left: 3% !important;
+    }
+
+    .ruler.vertical {
+        left: 2% !important;
+    }
+}
+
+@media (min-width: 1921px) {
+    .ruler.horizontal {
+        top: 7% !important;
+        left: 3% !important;
+    }
+
+    .ruler.vertical {
+        left: 2% !important;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1367px) {
+    .ruler.horizontal {
+        top: 16.5% !important;
+        left: 3% !important;
+    }
+
+    .ruler.vertical {
+        left: 2.5% !important;
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1600px) {
+    .ruler.horizontal {
+        top: 15% !important;
+        left: 3% !important;
+    }
+
+    .ruler.vertical {
+        left: 2% !important;
+    }
+}
+
+.ruler.vertical {
+    cursor: move;
+}
+
+.ruler.horizontal {
+    cursor: move;
+}
